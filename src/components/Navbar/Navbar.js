@@ -4,8 +4,8 @@ import List from '@mui/material/List';
 import { ROUTE } from "../../util/route";
 import { useTranslation } from 'react-i18next';
 import { withRouter } from 'react-router-dom';
-import Image from '../../components/Image'
-import EALogo from '../../image/icon/ea-logo.svg'
+// import Image from '../../components/Image'
+// import EALogo from '../../image/icon/ea-logo.svg'
 
 const Navbar = ({ location }) => {
     const { t } = useTranslation('translation', { keyPrefix: 'menu' });
@@ -61,7 +61,7 @@ const Navbar = ({ location }) => {
             </NavList>
 
             <NavFooter>
-                <Image width="170" height="100" src={EALogo} />
+                {/* <Image width="170" height="100" src={EALogo} /> */}
                 <NavFooterTitle >Version: 3.2. 2022</NavFooterTitle>
             </NavFooter>
         </NavbarStyled>
